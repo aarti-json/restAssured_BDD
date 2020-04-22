@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Cloudreach Sanity Test Cases" duration-ms="30082" started-at="2020-04-22T14:29:35Z" finished-at="2020-04-22T14:30:05Z">
+  <suite name="Cloudreach Sanity Test Cases" duration-ms="29248" started-at="2020-04-22T18:06:23Z" finished-at="2020-04-22T18:06:52Z">
     <groups>
     </groups>
-    <test name="Create Test" duration-ms="30082" started-at="2020-04-22T14:29:35Z" finished-at="2020-04-22T14:30:05Z">
+    <test name="Create Test" duration-ms="29248" started-at="2020-04-22T18:06:23Z" finished-at="2020-04-22T18:06:52Z">
       <class name="tests.Register_User_Unsucessful_PostRequest">
-        <test-method status="PASS" signature="postData()[pri:0, instance:tests.Register_User_Unsucessful_PostRequest@5cb9f472]" name="postData" is-config="true" duration-ms="2217" started-at="2020-04-22T14:29:58Z" finished-at="2020-04-22T14:30:00Z">
+        <test-method status="PASS" signature="postData()[pri:0, instance:tests.Register_User_Unsucessful_PostRequest@59494225]" name="postData" is-config="true" duration-ms="2743" started-at="2020-04-22T18:06:34Z" finished-at="2020-04-22T18:06:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postData -->
-        <test-method status="PASS" signature="validate_User_Not_able_to_Register()[pri:0, instance:tests.Register_User_Unsucessful_PostRequest@5cb9f472]" name="validate_User_Not_able_to_Register" duration-ms="2644" started-at="2020-04-22T14:30:00Z" finished-at="2020-04-22T14:30:03Z">
+        <test-method status="PASS" signature="validate_User_Not_able_to_Register()[pri:0, instance:tests.Register_User_Unsucessful_PostRequest@59494225]" name="validate_User_Not_able_to_Register" duration-ms="2389" started-at="2020-04-22T18:06:37Z" finished-at="2020-04-22T18:06:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_User_Not_able_to_Register -->
       </class> <!-- tests.Register_User_Unsucessful_PostRequest -->
       <class name="tests.Login_User_UnSucess_PostRequest">
-        <test-method status="PASS" signature="postData()[pri:0, instance:tests.Login_User_UnSucess_PostRequest@59494225]" name="postData" is-config="true" duration-ms="1991" started-at="2020-04-22T14:29:48Z" finished-at="2020-04-22T14:29:50Z">
+        <test-method status="PASS" signature="postData()[pri:0, instance:tests.Login_User_UnSucess_PostRequest@5cb9f472]" name="postData" is-config="true" duration-ms="2778" started-at="2020-04-22T18:06:44Z" finished-at="2020-04-22T18:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postData -->
-        <test-method status="PASS" signature="validate_User_Not_able_to_Login()[pri:0, instance:tests.Login_User_UnSucess_PostRequest@59494225]" name="validate_User_Not_able_to_Login" duration-ms="2539" started-at="2020-04-22T14:29:50Z" finished-at="2020-04-22T14:29:52Z">
+        <test-method status="PASS" signature="validate_User_Not_able_to_Login()[pri:0, instance:tests.Login_User_UnSucess_PostRequest@5cb9f472]" name="validate_User_Not_able_to_Login" duration-ms="2718" started-at="2020-04-22T18:06:47Z" finished-at="2020-04-22T18:06:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_User_Not_able_to_Login -->
       </class> <!-- tests.Login_User_UnSucess_PostRequest -->
-      <class name="tests.RegisterUser_Post_PostRequest">
-        <test-method status="PASS" signature="postData()[pri:0, instance:tests.RegisterUser_Post_PostRequest@6e1567f1]" name="postData" is-config="true" duration-ms="3202" started-at="2020-04-22T14:29:52Z" finished-at="2020-04-22T14:29:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postData -->
-        <test-method status="PASS" signature="validate_User_able_to_Register()[pri:0, instance:tests.RegisterUser_Post_PostRequest@6e1567f1]" name="validate_User_able_to_Register" duration-ms="2564" started-at="2020-04-22T14:29:55Z" finished-at="2020-04-22T14:29:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_User_able_to_Register -->
-      </class> <!-- tests.RegisterUser_Post_PostRequest -->
       <class name="tests.Login_User_Sucess_PostRequest">
-        <test-method status="PASS" signature="postData()[pri:0, instance:tests.Login_User_Sucess_PostRequest@6e06451e]" name="postData" is-config="true" duration-ms="1050" started-at="2020-04-22T14:29:35Z" finished-at="2020-04-22T14:29:36Z">
+        <test-method status="PASS" signature="postData()[pri:0, instance:tests.Login_User_Sucess_PostRequest@6e1567f1]" name="postData" is-config="true" duration-ms="1" started-at="2020-04-22T18:06:39Z" finished-at="2020-04-22T18:06:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postData -->
-        <test-method status="PASS" signature="validate_User_able_to_Login()[pri:0, instance:tests.Login_User_Sucess_PostRequest@6e06451e]" name="validate_User_able_to_Login" duration-ms="11622" started-at="2020-04-22T14:29:36Z" finished-at="2020-04-22T14:29:48Z">
+        <test-method status="PASS" signature="validate_User_able_to_Login()[pri:0, instance:tests.Login_User_Sucess_PostRequest@6e1567f1]" name="validate_User_able_to_Login" duration-ms="5053" started-at="2020-04-22T18:06:39Z" finished-at="2020-04-22T18:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_User_able_to_Login -->
       </class> <!-- tests.Login_User_Sucess_PostRequest -->
+      <class name="tests.RegisterUser_Post_PostRequest">
+        <test-method status="PASS" signature="postData()[pri:0, instance:tests.RegisterUser_Post_PostRequest@6e06451e]" name="postData" is-config="true" duration-ms="7516" started-at="2020-04-22T18:06:23Z" finished-at="2020-04-22T18:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method status="PASS" signature="validate_User_able_to_Register()[pri:0, instance:tests.RegisterUser_Post_PostRequest@6e06451e]" name="validate_User_able_to_Register" duration-ms="3878" started-at="2020-04-22T18:06:30Z" finished-at="2020-04-22T18:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_User_able_to_Register -->
+      </class> <!-- tests.RegisterUser_Post_PostRequest -->
       <class name="tests.Update_user_Update_Request">
-        <test-method status="PASS" signature="validate_User_able_to_update_Current_resources()[pri:0, instance:tests.Update_user_Update_Request@cb644e]" name="validate_User_able_to_update_Current_resources" duration-ms="2191" started-at="2020-04-22T14:30:03Z" finished-at="2020-04-22T14:30:05Z">
+        <test-method status="PASS" signature="validate_User_able_to_update_Current_resources()[pri:0, instance:tests.Update_user_Update_Request@cb644e]" name="validate_User_able_to_update_Current_resources" duration-ms="2098" started-at="2020-04-22T18:06:50Z" finished-at="2020-04-22T18:06:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_User_able_to_update_Current_resources -->

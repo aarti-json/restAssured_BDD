@@ -7,22 +7,11 @@
 
 	<test name="Create Test">
 		<classes>
+		    <class name="tests.RegisterUser_Post_PostRequest" />
+			<class name="tests.Register_User_Unsucessful_PostRequest" />
 			<class name="tests.Login_User_Sucess_PostRequest" />
 			<class name="tests.Login_User_UnSucess_PostRequest" />
-			<class name="tests.RegisterUser_Post_PostRequest" />
-			<class name="tests.Register_User_Unsucessful_PostRequest" />
 			<class name="tests.Update_user_Update_Request" />
-			
-			
 		</classes>
 	</test>
-	
-   <!--  <test name="Review Test">
-		<classes>
-			
-			<class name="tests.ReviewTest" />
-		</classes> 
-	</test> -->
-	
-
 </suite> 
