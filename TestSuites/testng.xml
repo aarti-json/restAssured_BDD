@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cloudreach Sanity Test Cases">
+	<listeners>
+		<listener class-name="utility.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Create Test">
+		<classes>
+			<class name="tests.Login_User_Sucess_PostRequest" />
+			<class name="tests.Login_User_UnSucess_PostRequest" />
+			<class name="tests.RegisterUser_Post_PostRequest" />
+			<class name="tests.Register_User_Unsucessful_PostRequest" />
+			<class name="tests.Update_user_Update_Request" />
+			
+			
+		</classes>
+	</test>
+	
+   <!--  <test name="Review Test">
+		<classes>
+			
+			<class name="tests.ReviewTest" />
+		</classes> 
+	</test> -->
+	
+
+</suite> 
