@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Login_User_Sucess">
+      <class name="tests.DeleteUser">
         <methods>
-          <include name="postData"/>
-          <include name="TestRegister_Post"/>
+          <include name="validate_delete_user"/>
         </methods>
-      </class> <!-- tests.Login_User_Sucess -->
+      </class> <!-- tests.DeleteUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
