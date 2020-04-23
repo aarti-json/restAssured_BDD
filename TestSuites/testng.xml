@@ -5,13 +5,77 @@
 		<listener class-name="utility.ExtentReporterNG" />
 	</listeners>
 
-	<test name="Create Test">
+	<test name="Register User">
 		<classes>
-		    <class name="tests.RegisterUser_Post_PostRequest" />
-			<class name="tests.Register_User_Unsucessful_PostRequest" />
-			<class name="tests.Login_User_Sucess_PostRequest" />
-			<class name="tests.Login_User_UnSucess_PostRequest" />
-			<class name="tests.Update_user_Update_Request" />
+		    <class name="tests.RegisterUser_Post_PostRequest"/>
+			
 		</classes>
 	</test>
+	
+	<test name=" Register User , Unsucessful ">
+		<classes>
+		   
+			<class name="tests.Register_User_Unsucessful_PostRequest"/>
+		
+			
+		</classes>
+	</test>
+	
+	
+	 <test name="Login User ">
+		<classes>
+		    
+			<class name="tests.Login_User_Sucess_PostRequest" />
+			
+		</classes>
+	</test>
+	
+	<!-- <test name="Login User , unsucessful ">
+		<classes>
+			<class name="tests.Login_User_UnSucess_PostRequest "/>
+		</classes>
+	</test> -->
+	
+	<test name="Update user">
+		<classes>
+		  
+			<class name="tests.Update_user_Update_Request" />
+
+			
+		</classes>
+	</test>
+	<test name="Delete User">
+		<classes>
+		
+			<class name="tests.DeleteUser" />
+			
+		</classes>
+	</test>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 </suite> 

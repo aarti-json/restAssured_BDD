@@ -1,0 +1,10 @@
+2020-04-23 11:48:52,368 - tests.DeleteUser -INFO -  Open URI url - https://reqres.in/api/users/2  and validate Delete User
+2020-04-23 11:48:58,364 - tests.DeleteUser -INFO - Test Case Executed 
+2020-04-23 12:27:58,706 - tests.Login_User_Sucess_PostRequest -INFO -  Open URI url - https://reqres.in/api/login  and User Not able to Login
+2020-04-23 12:42:21,334 - tests.DeleteUser -INFO -  Open URI url - https://reqres.in/api/users/2  and validate Delete User
+2020-04-23 12:42:27,047 - tests.DeleteUser -INFO - Test Case Executed 
+2020-04-23 12:42:46,025 - tests.DeleteUser -INFO -  Open URI url - https://reqres.in/api/users/2  and validate Delete User
+2020-04-23 12:43:20,622 - tests.DeleteUser -INFO -  Open URI url - https://reqres.in/api/users/2  and validate Delete User
+2020-04-23 12:53:42,709 - tests.Register_User_Unsucessful_PostRequest -INFO -  Open URI url - https://reqres.in/api/register and User able to Register
+2020-04-23 12:54:11,710 - tests.Register_User_Unsucessful_PostRequest -INFO -  Open URI url - https://reqres.in/api/register and User able to Register
+2020-04-23 12:54:15,537 - tests.Register_User_Unsucessful_PostRequest -INFO - Test Case Executed 

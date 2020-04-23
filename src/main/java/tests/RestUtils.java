@@ -11,8 +11,6 @@ public  class RestUtils {
 		
 		
 	}
-	
-	
       public static String getPassword(){
 		
 		String genratedString =RandomStringUtils.randomAlphabetic(1);
